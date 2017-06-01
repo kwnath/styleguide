@@ -1,0 +1,27 @@
+.btn {
+  border-radius: 3px;
+  font-family: 'Avenir' ,sans-serif;
+  color: #575757;
+  font-size: 13px;
+  background: #e8e8e8;
+  padding: 5px 11px 5px 11px;
+  text-decoration: none;
+  transition-duration: 0.5s;
+  max-width: 40px;
+}
+
+.btn:hover {
+  background: #ee2c3f;
+  text-decoration: none;
+  color: white;
+  transform: scale3d(2);
+}
+
+/*.btn:focus {
+  background: #941F2B;
+  outline: none;
+  -webkit-box-shadow: inset 0px 0px 4px #ccc;
+     -moz-box-shadow: inset 0px 0px 4px #ccc;
+          box-shadow: inset 0px 0px 4px #ccc;
+}
+*/

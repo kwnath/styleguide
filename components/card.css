@@ -1,0 +1,39 @@
+.card {
+  box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.14), 0 1px 2px 0 rgba(0,0,0,0.12), 0 2px 2px -3px rgba(0,0,0,0.2);
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255,255,255,0.8);
+  padding: 5px;
+  transition-duration: 0.3s;
+  border-radius: 3px;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card-image {
+  position: absolute;
+  max-width: 100%;
+  padding-bottom: 10px;
+}
+
+.card-content {
+  padding: 24px 24px 10px 24px;
+  border-radius: 0 0 2px 2px;
+}
+
+.element {
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+/* Content divider */
+
+.vertical-divider {
+  border-left: #5d5d5d;
+  border-left-style: solid;
+  border-left-width: 0.5px;
+  padding-left: 30px;
+}

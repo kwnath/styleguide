@@ -1,0 +1,46 @@
+/* Importing stylesheets */
+@import url("components/avatar.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+@import url("components/navbar.css");
+@import url("components/gradient.css");
+@import url("components/header.css");
+
+/* Importing fonts */
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* General style */
+
+body {
+  background: linear-gradient(302deg, #6fd4ba, #7bd6bf, #88e5cd);
+  background-size: 600% 600%;
+  animation: AnimationName 30s ease infinite;
+
+  @keyframes AnimationName {
+      0%{background-position:7% 0%}
+      50%{background-position:94% 100%}
+      100%{background-position:7% 0%}
+  }
+  font-family: 'Raleway', Helvetica, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Avenir' ,sans-serif;
+  color: #fff;
+}
+
+p {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 300;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
